@@ -1,0 +1,38 @@
+[project]
+site_name = "Sean Hu"
+site_description = "Projects + notes across ML systems, biomaterials, and computational + synthetic biology."
+site_url = "https://seanhu0401.github.io"
+
+[project.theme]
+features = [
+    "navigation.tabs",
+    "navigation.sections",
+    "navigation.indexes",
+    "navigation.top",
+    "toc.follow",
+    "content.code.copy",
+    "search.highlight",
+]
+
+# Python Markdown built-in extensions
+[project.markdown_extensions.toc]
+permalink = true
+
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.tables]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.md_in_html]
+
+# PyMdown Extensions
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+    { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" },
+]
+
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]
