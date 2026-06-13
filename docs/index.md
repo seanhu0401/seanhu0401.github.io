@@ -1,12 +1,24 @@
-# Sean Hu — Projects & Notes
+# Sean Hu
 
-This is my public workspace for:
+Bioengineering PhD working at the intersection of:
 
-- project writeups (with links to code repos)
-- technical notes and reading logs
-- a growth roadmap across ML systems, biomaterials/rheology, and computational + synthetic biology
+- Biomaterials & rheology
+- Computational biology
+- Synthetic biology
+- Machine learning systems
+- Scientific software engineering
 
-Start here:
+This site documents my projects, research notes, and technical explorations.
+
+---
+
+## Featured Projects
+
+- [Bioreactor Digital Twin V1](projects/bioreactor-digital-twin/) — a mechanistic Python simulator connecting Monod kinetics to fed-batch trajectories, chemostat washout, and local sensitivity analysis.
+
+---
+
+## Explore
 
 - [Projects](projects/)
 - [Topics](topics/)
